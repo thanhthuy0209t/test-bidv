@@ -1,4 +1,4 @@
-Feature: Tính năng Đăng ký tài khoản bằng Email và Mật khẩu
+Feature: Tính năng Đăng ký tài khoản
   Scenario: Đăng ký thành công với thông tin hợp lệ
     Given Người dùng đang ở màn hình Đăng ký
     When Người dùng nhập đầy đủ Email, Mật khẩu hợp lệ
