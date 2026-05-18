@@ -1,0 +1,7 @@
+Feature: Tính năng Đăng ký tài khoản bằng Email và Mật khẩu
+  Scenario: Đăng ký thành công với thông tin hợp lệ
+    Given Người dùng đang ở màn hình Đăng ký
+    When Người dùng nhập đầy đủ Email, Mật khẩu hợp lệ
+    And Bấm vào nút "Đăng ký"
+    Then Hệ thống hiển thị thông báo "Đăng ký thành công"
+    And Chuyển hướng người dùng về trang đăng nhập

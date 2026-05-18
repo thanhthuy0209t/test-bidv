@@ -1,0 +1,4 @@
+Scenario: Đăng nhập thành công với tài khoản hợp lệ
+  Given Người dùng đang ở trang đăng nhập
+  When Người dùng nhập tài khoản và mật khẩu đúng
+  Then Hệ thống chuyển hướng đến trang chủ
